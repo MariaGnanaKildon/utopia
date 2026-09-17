@@ -1569,7 +1569,7 @@ int prepare_dhcp_conf (char *input)
         fprintf(l_fLocal_Dhcp_ConfFile, "dhcp-option=vendor:SE401,43,tag=123\n");
         fprintf(l_fLocal_Dhcp_ConfFile, "dhcp-option=vendor:WNXL11BWL,43,tag=123\n");
         fprintf(l_fLocal_Dhcp_ConfFile, "dhcp-option=vendor:RDKBPOD,43,tag=123\n");
-        fprintf(l_fLocal_Dhcp_ConfFile, "dhcp-option=vendor:GR-EXT02A-CTS,43,tag=123\n");
+        fprintf(l_fLocal_Dhcp_ConfFile, "dhcp-option=vendor:GR-EXT02A-CTS,43\n");
 
         // Set dnsmasq tag for XLE as "extender".
         fprintf(l_fLocal_Dhcp_ConfFile, "dhcp-vendorclass=set:extender,WNXL11BWL\n");
